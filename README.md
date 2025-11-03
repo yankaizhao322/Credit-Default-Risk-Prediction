@@ -64,7 +64,6 @@ This dataset should have columns such as:
 No manual cleaning is needed if you use the provided notebook.
 
 ### Run the notebook
-Open the Jupyter Notebook file:
 
 ## 5. Author:
 Yankai Zhao
