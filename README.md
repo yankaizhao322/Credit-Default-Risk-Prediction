@@ -63,7 +63,9 @@ This dataset should have columns such as:
 
 No manual cleaning is needed if you use the provided notebook.
 
+In the real world banking. They usually allow less FPR, to ensure customer experience. user can change 'alpha' in the neyman-pearson to see how FPR and recall changes on different cut-off.
 In order to use Neyman-Pearson Hypothesis testing running Neyman_Pearson.py: 
+
 ```python
   dt_recall = run_np_analysis(best_model, "Decision Tree", val_df[predictors], val_df[target].values)
 ```
