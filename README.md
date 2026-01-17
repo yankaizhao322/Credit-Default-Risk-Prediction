@@ -63,6 +63,11 @@ This dataset should have columns such as:
 
 No manual cleaning is needed if you use the provided notebook.
 
+In order to use Neyman-Pearson Hypothesis testing running Neyman_Pearson.py: 
+```python
+  dt_recall = run_np_analysis(best_model, "Decision Tree", val_df[predictors], val_df[target].values)
+```
+
 ### Run the notebook
 
 ## 5. Author:
